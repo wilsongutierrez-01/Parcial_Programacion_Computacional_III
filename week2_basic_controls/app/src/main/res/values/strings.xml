@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">week2_basic_controls</string>
+    <string name="title">BASIC CONTROLS</string>
+    <string name="lastname">Type your last name</string>
+    <string name="name">Type your name</string>
+    <string name="sendData">send</string>
+    <string name="info">About yourself</string>
+    <string name="iname">Name: </string>
+    <string name="ilastname">Age: </string>
+    <string name="back">Back</string>
+    <string name="higher">You are higher than 18</string>
+    <string name="less">You are less than 18</string>
+    <string name="infoSend">Calculating age</string>
+</resources>

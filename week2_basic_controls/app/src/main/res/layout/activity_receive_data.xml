@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReceiveData">
+
+    <ImageView
+        android:id="@+id/imgLogSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_ugblog_foreground"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/txtvInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/info"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/iname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtvInfo"
+            android:text="@string/iname"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/iage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iname"
+            android:text="@string/ilastname"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/condition"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iage"
+            android:text="waiting for age"
+            android:textSize="20dp"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
